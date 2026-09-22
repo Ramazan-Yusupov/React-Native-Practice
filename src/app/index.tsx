@@ -66,7 +66,7 @@ export default function App() {
           <TouchableOpacity
             onPress={addTask}
             disabled={inputValue.length === 0}
-            className="h-12 w-12 bg-blue-600 rounded-xl items-center justify-center active:bg-blue-700 disabled:bg-blue-400"
+            className="h-12 w-12 bg-blue-600 rounded-xl items-center justify-center active:bg-blue-700 disabled:opacity-50"
           >
             <PlusCircle color="white" />
           </TouchableOpacity>
